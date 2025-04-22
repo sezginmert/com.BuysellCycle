@@ -23,7 +23,7 @@ import utilities.ReusableMethods;
 
 import java.time.Duration;
 
-public class US_017_004Steps {
+public class user_dashboard_Step {
 
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver = Hooks.getDriver();
