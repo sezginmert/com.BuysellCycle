@@ -12,7 +12,7 @@ import pages.LoginPages;
 import utilities.ExcelReader;
 import utilities.ReusableMethods;
 
-public class US_006andUS_007Step {
+public class view_all_categories_latest_products_page_Step {
 
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver = stepDefinitions.Hooks.getDriver();

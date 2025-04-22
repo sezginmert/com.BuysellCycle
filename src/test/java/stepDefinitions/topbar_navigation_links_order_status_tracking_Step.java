@@ -17,7 +17,7 @@ import utilities.ExcelReader;
 import utilities.ReusableMethods;
 
 
-public class US_002_US_003Step {
+public class topbar_navigation_links_order_status_tracking_Step {
 
     WebDriver driver = Hooks.getDriver();
     HomeHeaderPage homeHeaderPage = new HomeHeaderPage(driver);

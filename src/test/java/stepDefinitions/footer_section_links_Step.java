@@ -2,10 +2,7 @@ package stepDefinitions;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.LoginPages;
 import pages.HomeFooterPage;
 import drivers.DriverManager;
@@ -13,13 +10,13 @@ import utilities.ReusableMethods;
 import utilities.JSUtilities;
 import java.time.Duration;
 
-public class FooterStepDefinitions {
+public class footer_section_links_Step {
 
     LoginPages loginPages;
     HomeFooterPage footerPage;
     WebDriver driver;
 
-    public FooterStepDefinitions() {
+    public footer_section_links_Step() {
         driver = DriverManager.getDriver();
         loginPages = new LoginPages(driver);
         footerPage = new HomeFooterPage(driver);

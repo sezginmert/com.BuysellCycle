@@ -1,6 +1,5 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.logging.log4j.LogManager;
@@ -10,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pages.BasePage;
-import pages.LogoutPage;
 import pages.UserDashboardPage;
 import utilities.ExcelReader;
 
@@ -22,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class US_019_MyWishlist {
+public class my_wishlist_page_Step {
     private static final Logger logger = LogManager.getLogger();
     WebDriver driver = Hooks.getDriver();
     ExcelReader excelReader = new ExcelReader("src/test/resources/TestData.xlsx");
