@@ -12,12 +12,11 @@ import org.openqa.selenium.WebDriver;
 import pages.BasePage;
 import pages.LogoutPage;
 import utilities.ExcelReader;
-import utilities.JSUtilities;
 import utilities.LoggerHelper;
 import utilities.ReusableMethods;
 
 
-public class US_029_UserLogout {
+public class user_logout_Step {
 
 
     private static final Logger logger = LogManager.getLogger();
